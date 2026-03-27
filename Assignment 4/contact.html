@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parjanand - Contact</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Segoe UI, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(135deg, #dbeafe, #f8fafc);
+        }
+
+        /* HEADER */
+
+        header {
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            color: white;
+            text-align: center;
+            padding: 25px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            margin-top: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            padding: 6px 14px;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background: white;
+            color: #1e3a8a;
+        }
+
+        /* CONTENT */
+
+        .container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* CONTACT CARD */
+
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 18px;
+            text-align: center;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+        }
+
+        .card img {
+            width: 180px;
+            border-radius: 50%;
+            border: 4px solid #3b82f6;
+            margin-bottom: 15px;
+        }
+
+        /* EMAIL STYLE */
+
+        .email {
+            font-size: 18px;
+            color: #1e3a8a;
+            font-weight: 600;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Contact Information</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+
+    <div class="container">
+
+        <div class="card">
+
+            <img src="dp.jpeg" alt="Profile Photo">
+
+            <h2>Parjanand</h2>
+
+            <p class="email"><strong>Email: </strong>Pankajkumar05658@gmail.com</p>
+
+        </div>
+
+    </div>
+
+
+    <footer>
+        Return to <a href="index.html" style="color:#93c5fd;">Home Page</a>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parjanand - Home</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Segoe UI, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(135deg, #dbeafe, #f8fafc);
+        }
+
+        /* HEADER */
+
+        header {
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            color: white;
+            text-align: center;
+            padding: 25px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 34px;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            margin-top: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            padding: 6px 14px;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background: white;
+            color: #1e3a8a;
+        }
+
+        /* CONTENT */
+
+        .container {
+            flex: 1;
+            width: 85%;
+            margin: auto;
+            padding: 40px 0;
+        }
+
+        /* CARDS */
+
+        .card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 16px;
+            margin-bottom: 25px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            transition: 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+        }
+
+        .card h2 {
+            margin-bottom: 12px;
+            color: #1e3a8a;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Parjanand</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+
+    <div class="container">
+
+        <div class="card">
+            <h2>Student Details</h2>
+            <p><strong>Name:</strong> Parjanand</p>
+            <p><strong>Roll Number:</strong> 8025320068</p>
+            <p><strong>Course:</strong> PCS221</p>
+        </div>
+
+
+        <div class="card">
+            <h2>What I Learned About Cloud Computing</h2>
+            <p>
+                Cloud computing provides on-demand access to computing resources like storage,
+                servers, networking, and software via the internet. It improves scalability,
+                reduces infrastructure cost, and enables remote access. Service models such as
+                IaaS, PaaS, and SaaS simplify deployment and management of applications.
+            </p>
+        </div>
+
+    </div>
+
+
+    <footer>
+        © 2026 Cloud Computing Lab | Designed by Pankaj Kumar
+    </footer>
+
+</body>
+
+</html>
