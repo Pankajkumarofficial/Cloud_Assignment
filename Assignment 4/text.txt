@@ -1,3 +1,5 @@
 IP Address: 20.244.86.99
 
 Cloud Storage link: https://pankajstorage1222.z29.web.core.windows.net/index.html
+
+Copy_VM: 98.70.112.172
